@@ -181,6 +181,7 @@
             this.lblForget.Size = new System.Drawing.Size(198, 20);
             this.lblForget.TabIndex = 7;
             this.lblForget.Text = "Forgot your password?";
+            this.lblForget.Click += new System.EventHandler(this.lblForget_Click);
             this.lblForget.MouseEnter += new System.EventHandler(this.lblForget_MouseEnter);
             this.lblForget.MouseLeave += new System.EventHandler(this.lblForget_MouseLeave);
             // 

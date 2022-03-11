@@ -132,5 +132,11 @@ namespace Train_Boocking
                 btnLogin.PerformClick();
             }
         }
+
+        private void lblForget_Click(object sender, EventArgs e)
+        {
+            verify v = new verify();
+            v.Show();
+        }
     }
 }
